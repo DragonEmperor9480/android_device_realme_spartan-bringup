@@ -19,7 +19,7 @@ PRODUCT_NAME := lineage_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := Realme
 PRODUCT_BRAND := Realme
-PRODUCT_MODEL := LE2101
+PRODUCT_MODEL := spartan
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
