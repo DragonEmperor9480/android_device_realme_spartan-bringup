@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/spartan/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_spartan
 PRODUCT_DEVICE := spartan
@@ -22,6 +22,13 @@ PRODUCT_BRAND := Realme
 PRODUCT_MODEL := LE2101
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
+
+
+INFINITY_MAINTAINER := Amrut
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS := true
+WITH_GAPPS := true
+TARGET_SUPPORTS_BLUR := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="RMX3371-user 14 UKQ1.230924.001 S.1d262cb-66b86-66b87 release-keys" \
