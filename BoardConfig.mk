@@ -31,3 +31,6 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/spartan/BoardConfigVendor.mk
+
+# Include private signing keys
+include vendor/amrut-priv-keys/keys/keys.mk
